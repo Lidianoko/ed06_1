@@ -41,8 +41,8 @@ La eficiencia del usuario se calcula con la siguiente fórmula:
 $$E = \frac{Tareas Completadas}{Tareas Totales}x100$$
 
 Donde:
-* `E` es la eficiencia en porcentaje.
-* `Tareas Completadas` es el número de tareas finalizadas por el usuario.
-* `Tareas Totales` es el número total de tareas asignadas.
+* $E$ es la eficiencia en porcentaje.
+* $Tareas Completadas$ es el número de tareas finalizadas por el usuario.
+* $Tareas Totales$ es el número total de tareas asignadas.
 ## Diagramas de Clases
 La siguiente representación en UML muestra la estructura del sistema:
