@@ -48,33 +48,18 @@ Donde:
 La siguiente representación en UML muestra la estructura del sistema:
 
 classDiagram
-    class Libro {
-        +String titulo
-        +String autor
-        +String ISBN
-        +int anioPublicacion
-        +prestar()
-        +devolver()
-    }
-
-    class Usuario {
-        +String nombre
-        +String correo
-        +int id
-        +registrarse()
-        +solicitarPrestamo()
-    }
-
-    class Prestamo {
-        +Date fechaPrestamo
-        +Date fechaDevolucion
-        +boolean devuelto
-        +registrarDevolucion()
-    }
-
-    Usuario "1" --> "0..*" Prestamo : realiza
-    Libro "1" --> "0..*" Prestamo : está en
-    Prestamo "1" --> "1" Libro : refiere
-    Prestamo "1" --> "1" Usuario : realizado por
+Class01 <|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
 
 
