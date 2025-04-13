@@ -91,4 +91,6 @@ En la siguiente tabla se muestran las versiones publicadas de la aplicación:
 | 2.2.0  | 15/04/2024  | Mejoras de usabilidad  | 
 | 2.3.0  | 30/04/2024  | Nuevas funcionalidades | 
 ## Créditos
-Desarrollado por [Lidia Nokonoko](https://www.markdownguide.org)
+Desarrollado por [Lidia Nokonoko](https://github.com/Lidianoko)
+## Licencia
+Este proyecto está bajo la Licencia MIT.
