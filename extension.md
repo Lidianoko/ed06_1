@@ -90,5 +90,5 @@ En la siguiente tabla se muestran las versiones publicadas de la aplicación:
 | 2.1.0  | 30/03/2024  | Corrección de errores  | 
 | 2.2.0  | 15/04/2024  | Mejoras de usabilidad  | 
 | 2.3.0  | 30/04/2024  | Nuevas funcionalidades | 
-
-
+## Créditos
+Desarrollado por [Lidia Nokonoko](https://www.markdownguide.org)
