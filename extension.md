@@ -55,30 +55,15 @@ classDiagram
         + agregarTarea(tarea: Tarea): void
         + eliminarTarea(tarea: Tarea): void
     }
-    class Coche {
-        - numeroPuertas: int
-    }
-    class Moto {
-        - cilindrada: int
-    }
-    Vehiculo <|-- Coche
-    Vehiculo <|-- Moto
-```
-```mermaid
-classDiagram
-    direction LR
-    class Persona {
-        -nombre: String
-        +getNombre() String
-        +setNombre(nombre: String) void
+
+class Tarea {
+        - titulo: String
+        - prioridad: String
+        - completada: Boolean
+        + marcarComoCompletada(): void
     }
 
-    class Vehiculo {
-        -modelo: String
-        +getModelo() String
-        +setModelo(modelo: String) void
-    }
-
-    Persona "1" --> "*" Vehiculo: posee
+    Usuario "1" --> "*" Tarea: asigna
 ```
+
 
