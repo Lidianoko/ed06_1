@@ -46,3 +46,35 @@ Donde:
 * $Tareas Totales$ es el número total de tareas asignadas.
 ## Diagramas de Clases
 La siguiente representación en UML muestra la estructura del sistema:
+
+classDiagram
+    class Libro {
+        +String titulo
+        +String autor
+        +String ISBN
+        +int anioPublicacion
+        +prestar()
+        +devolver()
+    }
+
+    class Usuario {
+        +String nombre
+        +String correo
+        +int id
+        +registrarse()
+        +solicitarPrestamo()
+    }
+
+    class Prestamo {
+        +Date fechaPrestamo
+        +Date fechaDevolucion
+        +boolean devuelto
+        +registrarDevolucion()
+    }
+
+    Usuario "1" --> "0..*" Prestamo : realiza
+    Libro "1" --> "0..*" Prestamo : está en
+    Prestamo "1" --> "1" Libro : refiere
+    Prestamo "1" --> "1" Usuario : realizado por
+
+
