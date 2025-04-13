@@ -17,9 +17,21 @@ Para instalar y ejecutar la aplicación, sigue los siguientes pasos:
 # Clonar el repositorio
 git clone https://github.com/usuario/taskmaster.git
 cd taskmaster
+
 # Instalar dependencias
 npm install
+
 # Ejecutar la aplicación
 npm start
 ```
 ## Uso de la API
+TaskMaster proporciona una API REST para gestionar tareas. A continuación, un ejemplo de cómocrear una tarea usando **JavaScript**:
+```
+fetch("https://api.taskmaster.com/tareas",{
+method:"POST",
+headers:{"Content-Type": "application/json" },
+body: JSON.stringify({titulo:"Nueva tarea", prioridad:"Alta"})
+})
+.then(response=>response.json())
+.then(data=>console.log("Tarea creada:",data));
+```
