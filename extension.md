@@ -30,10 +30,10 @@ TaskMaster proporciona una API REST para gestionar tareas. A continuación, un e
 fetch("https://api.taskmaster.com/tareas",{
   method:"POST",
   headers:{"Content-Type": "application/json" },
-  body: JSON.stringify({titulo:"Nueva tarea", prioridad:"Alta"})
+  body: JSON.stringify({titulo:"Nueva tarea", prioridad: "Alta"})
 })
 .then(response=>response.json())
-.then(data=>console.log("Tarea creada:",data));
+.then(data=>console.log("Tarea creada:", data));
 ```
 ## Fórmula de Productividad
 La eficiencia del usuario se calcula con la siguiente fórmula:
@@ -79,7 +79,7 @@ Para registrar una nueva tarea, sigue estos pasos:
 4. Haz clic en **Guardar** para crear la tarea.
 5. ¡Listo! La tarea se ha registrado correctamente.
 
-Si deseas que el título de la tarea sea visible en negrita, escríbelo entre dobles asteriscos: \*\*Título dela Tarea\*\*.
+Si deseas que el título de la tarea sea visible en negrita, escríbelo entre dobles asteriscos: \*\*Título de la Tarea\*\*.
 ## Histoial de versiones
 En la siguiente tabla se muestran las versiones publicadas de la aplicación:
 | Versión| Fecha       | Descripción            |
