@@ -1,4 +1,4 @@
-# TaskMaster - Aplicación de Gestión deTareas
+# TaskMaster - Aplicación de Gestión de Tareas
 
 ## Descripción
 TaskMaster es una aplicación diseñada para mejorar la productividad, permitiendo gestionar tareas demanera eficiente. Con esta herramienta, los usuarios pueden organizar sus actividades diarias demanera sencilla y eficaz.
