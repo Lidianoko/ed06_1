@@ -67,7 +67,9 @@ class Tarea {
 ```
 ## Capturas de Pantalla
 A continuación, una vista previa de la interfaz de usuario:
+
 ![image](https://github.com/user-attachments/assets/1e1a8c5b-9650-49c8-963e-955bc7e80dc5)
+
 Para registrar una nueva tarea, sigue estos pasos:
 1. Haz clic en el botón **Nueva Tarea**.
 2. Completa el formulario con los datos de la tarea.
