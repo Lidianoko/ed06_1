@@ -71,8 +71,8 @@ A continuación, una vista previa de la interfaz de usuario:
 Para registrar una nueva tarea, sigue estos pasos:
 1. Haz clic en el botón **Nueva Tarea**.
 2. Completa el formulario con los datos de la tarea.
-  i. **Título**: Nombre de la tarea.
-  ii. **Prioridad**: Nivel de importancia (baja, media, alta).
-  iii. **Fecha Límite**: Día y hora de vencimiento.
-3. Haz clic en **Guardar** para crear la tarea.
-4. ¡Listo! La tarea se ha registrado correctamente.
+   1. **Título**: Nombre de la tarea.
+   2. **Prioridad**: Nivel de importancia (baja, media, alta).
+   3. **Fecha Límite**: Día y hora de vencimiento.
+4. Haz clic en **Guardar** para crear la tarea.
+5. ¡Listo! La tarea se ha registrado correctamente.
