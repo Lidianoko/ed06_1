@@ -13,15 +13,13 @@ TaskMaster es una aplicación diseñada para mejorar la productividad, permitien
 * :bar_chart: Visualización en lista y tablero Kanban.
 ## Instalación
 Para instalar y ejecutar la aplicación, sigue los siguientes pasos:
-```# Clonar el repositorio
-git
-clone https://github.com/usuario/taskmaster.git
-cd
-taskmaster
+```
+# Clonar el repositorio
+git clone https://github.com/usuario/taskmaster.git
+cd taskmaster
 # Instalar dependencias
-npm
-install
+npm install
 # Ejecutar la aplicación
-npm
-start```
+npm start
+```
 ## Uso de la API
