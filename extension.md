@@ -47,6 +47,7 @@ Donde:
 ## Diagramas de Clases
 La siguiente representación en UML muestra la estructura del sistema:
 
+```mermaid
 classDiagram
     class Usuario {
         - nombre: String
@@ -62,6 +63,22 @@ classDiagram
     }
     Vehiculo <|-- Coche
     Vehiculo <|-- Moto
+```
+```mermaid
+classDiagram
+    direction LR
+    class Persona {
+        -nombre: String
+        +getNombre() String
+        +setNombre(nombre: String) void
+    }
 
+    class Vehiculo {
+        -modelo: String
+        +getModelo() String
+        +setModelo(modelo: String) void
+    }
 
+    Persona "1" --> "*" Vehiculo: posee
+```
 
