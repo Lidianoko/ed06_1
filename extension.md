@@ -37,6 +37,7 @@ fetch("https://api.taskmaster.com/tareas",{
 ```
 ## Fórmula de Productividad
 La eficiencia del usuario se calcula con la siguiente fórmula:
+
 $$E = \frac{Tareas Completadas}{Tareas Totales}x100$$
 
 
